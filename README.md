@@ -20,3 +20,9 @@ Docker:
 
 docker build -t flags .<br>
 docker run -p 8080:8080 -t flags
+
+## Тест через терминал
+> curl -X POST https://localhost:8080/
+-H "Content-Type: application/json"
+-d '{"countries": ["russia", "usa", "rus"], "path": "/tmp/countries/flags", "imageFormat": "SVG"
+}'
