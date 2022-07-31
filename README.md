@@ -1,6 +1,7 @@
 # Тестовое задание (Prime Aspect)
 Разработать Spring Boot приложение с использованием java 11, выполняющее загрузку флагов стран.
-На вход должны приниматься список кодов стран (пр. gb, pe, col, at), путь к директории выгрузки файлов (пр. C:\tmp\countries\flags, /tmp/countries/flags) и формат изображения (png или svg).
+На вход должны приниматься список кодов стран (пр. gb, pe, col, at), путь к директории выгрузки файлов (пр. C:\tmp\countries\flags, /tmp/countries/flags) 
+и формат изображения (png или svg).
 
 Приложение должно обращаться к внешнему API restcountries.com:
 https://restcountries.com/v2/alpha?codes={code},{code},{code}
